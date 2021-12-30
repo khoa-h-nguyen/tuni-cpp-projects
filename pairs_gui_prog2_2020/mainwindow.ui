@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="numberOfPlayers">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>43</y>
+      <width>122</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Number of players</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="inTurn">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>279</x>
+      <y>210</y>
+      <width>172</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="resetButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>9</y>
+      <width>85</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startGameButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>176</y>
+      <width>442</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start Game</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closeButton">
+    <property name="geometry">
+     <rect>
+      <x>365</x>
+      <y>9</y>
+      <width>85</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="inTurnLabel">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>210</y>
+      <width>43</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>In turn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="turnCardButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>248</y>
+      <width>443</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Turn Cards Back (end turn)</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdTimerSec">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>210</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timer">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>92</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Timer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardNumLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>142</y>
+      <width>110</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Number of cards</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditCardNum">
+    <property name="geometry">
+     <rect>
+      <x>134</x>
+      <y>142</y>
+      <width>317</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playerNumConfirmButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>108</y>
+      <width>441</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Confirm players number</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdTimerMin">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>210</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBoxPlayerNum">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>43</y>
+      <width>43</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>43</y>
+      <width>251</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>(enter player names, seperate by &quot;,&quot;)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditPlayerNames">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>75</y>
+      <width>441</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pauseButton">
+    <property name="geometry">
+     <rect>
+      <x>127</x>
+      <y>9</y>
+      <width>85</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pause</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditStatusBar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>282</y>
+      <width>443</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="helpButton">
+    <property name="geometry">
+     <rect>
+      <x>247</x>
+      <y>9</y>
+      <width>85</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Help</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPairs_Memory_Game">
+    <property name="title">
+     <string>Pairs Memory Game</string>
+    </property>
+   </widget>
+   <addaction name="menuPairs_Memory_Game"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>closeButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>346</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>234</x>
+     <y>282</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

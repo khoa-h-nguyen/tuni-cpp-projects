@@ -1,0 +1,13 @@
+The game has a 'Help' button in the GUI to explain the game rules and what each button can do.
+On top of that, some general features of the game:
+_The game has a timer, that starts on game start and stops when the game ends. It shows mins - secs.
+At any given point in the game, the 'Pause' button can be click to pause the game and thus, the
+timer is also paused.
+_The cards are images. You can easily add your images to the game too. Use a 40x40 image. Add it
+into the 'Images' folder and update the vector 'CARD_FACES' on line 110 of 'mainwindow.hh' with
+the directory to the image i.e 'Images/<image name>'.
+_The game has a status bar to tell the players what to do at any given point.
+_The 'Reset' button works as intended.
+_Players' score and collected cards are shown in a pile (face up). When the game ends, the number
+of pairs the winner(s) collected are also shown.
+I think that's it. Check also the game's 'Help' button for the game rules and features!
